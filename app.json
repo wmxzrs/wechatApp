@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/docu/docu",
+    "pages/tool/tool",
+    "pages/mes/mes",
+    "pages/logs/logs"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#808080",
+    "navigationBarTitleText": "tokiame",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#6495ed"
+  },
+  "tabBar": {
+    "selectedColor": "#ba55d3",
+    "borderStyle": "black",
+    "color": "black",
+    "backgroundColor": "#b0c4de",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/icon/index.png",
+        "selectedIconPath": "pages/icon/index-sel.png"
+      },
+      {
+        "pagePath": "pages/docu/docu",
+        "text": "博客",
+        "iconPath": "pages/icon/docu.png",
+        "selectedIconPath": "pages/icon/docu-sel.png"
+      },
+      {
+        "pagePath": "pages/mes/mes",
+        "iconPath": "pages/icon/mes.png",
+        "text": "推文",
+        "selectedIconPath": "pages/icon/mes-sel.png"
+      },
+      {
+        "pagePath": "pages/tool/tool",
+        "iconPath": "pages/icon/tool.png",
+        "text": "工具",
+        "selectedIconPath": "pages/icon/tool-sel.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,9 @@
+<!--pages/tool/tool.wxml-->
+<navigation-bar>
+<button>
+  菜单一
+</button>
+<button>
+  菜单二
+</button>
+</navigation-bar>
